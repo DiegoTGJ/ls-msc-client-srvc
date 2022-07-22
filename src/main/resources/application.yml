@@ -1,6 +1,13 @@
 pdtg:
   msc:
     apihost: "http://localhost:8080"
+  client:
+    request-timeout: 3000
+    socket-timeout: 3000
+    max-total: 100
+    max-per-route: 20
+
+
 logging:
   level:
     org:

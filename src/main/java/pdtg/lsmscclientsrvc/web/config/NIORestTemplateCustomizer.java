@@ -15,6 +15,7 @@ import org.springframework.web.client.RestTemplate;
  * Created by Diego T. 21-07-2022
  */
 //@Component
+//@ConfigurationProperties("pdtg.client")
 public class NIORestTemplateCustomizer  implements RestTemplateCustomizer {
 
     public ClientHttpRequestFactory clientHttpRequestFactory() throws IOReactorException{
